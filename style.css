@@ -1,0 +1,117 @@
+.container{
+	background-color: #444;
+	color: #20c997;
+	margin: 0 auto;
+	width: 70%;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+.img{
+	border-radius: 10%;
+}
+.btn{
+	margin-left: 5%;
+	width: 90%;
+	border-color: #880016;
+}
+input{
+	text-align: center;
+	color: #20c997;
+	background-color: #880016;
+	border-color: #20c997;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 990px) {
+	.container {
+		padding: 3% 10%;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	.img{
+		width: 16%;
+	}
+	.img1{
+		margin-left: 28%;
+	}
+	.img2{
+		margin-left: 10%;
+	}
+	input{
+		width: 20%;
+	}
+	.player1{
+		margin-left: 26%;
+		margin-bottom: 3%;
+		padding: 0;
+	}
+	.player2{
+		margin-left: 5%;
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1300px) {
+	.container {
+		padding: 3% 10%;
+		width: 10%;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	.img{
+		width: 16%;
+	}
+	.img1{
+		margin-left: 28%;
+	}
+	.img2{
+		margin-left: 10%;
+	}
+	input{
+		width: 18%;
+	}
+	.player1{
+		margin-left: 27%;
+		margin-bottom: 3%;
+		padding: 0;
+	}
+	.player2{
+		margin-left: 8%;
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 1300px){
+	.container {
+		padding: 5% 10%;
+		width: 10%;
+	}
+	h1{
+		font-size: 4rem;
+		padding-bottom: 3%;
+	}
+	.img{
+		width: 16%;
+	}
+	.img1{
+		margin-left: 28%;
+	}
+	.img2{
+		margin-left: 10%;
+	}
+	input{
+		width: 18%;
+	}
+	.player1{
+		margin-left: 27%;
+		margin-bottom: 3%;
+		padding: 0;
+	}
+	.player2{
+		margin-left: 8%;
+		padding: 0;
+	}
+}
