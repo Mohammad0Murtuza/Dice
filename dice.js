@@ -8,13 +8,13 @@ function onclick(e){
 	// dice 1
 
 	const randomNumber1 = Math.floor(Math.random() * 6 + 1);
-	const sourceImage1 = "images/dice" + randomNumber1 + ".JPG";
+	const sourceImage1 = "dice" + randomNumber1 + ".JPG";
 	const image1 = document.querySelector(".img1").setAttribute("src",sourceImage1 );
 
 	// dice 2
 
 	const randomNumber2 = Math.floor(Math.random() * 6 + 1);
-	const sourceImage2 = "images/dice" + randomNumber2 + ".JPG";
+	const sourceImage2 = "dice" + randomNumber2 + ".JPG";
 	const image2 = document.querySelector(".img2").setAttribute("src",sourceImage2 );
 
 	// result
