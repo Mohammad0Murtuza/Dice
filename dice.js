@@ -3,8 +3,9 @@ btn.addEventListener('click', onclick);
 function onclick(e){
 	e.preventDefault();
 
-	const player1 = document.querySelector(".player1").value;
-	const player2 = document.querySelector(".player2").value;
+	const player1 = document.querySelector(".player1").value.toUpperCase();
+	const player2 = document.querySelector(".player2").value.toUpperCase();
+	
 	// dice 1
 
 	const randomNumber1 = Math.floor(Math.random() * 6 + 1);
@@ -20,6 +21,7 @@ function onclick(e){
 	// result
 
 	const a = document.querySelector(".result");
+	
 	if (randomNumber1>randomNumber2) {
 		a.textContent = player1 + " WINS!!";
 	} else if(randomNumber1<randomNumber2){
