@@ -1,5 +1,5 @@
 const btn = document.querySelector(".btn");
-document.addEventListener('load', onload);
+window.addEventListener('load', onload);
 function onload{
 	const img = document.querySelector(".img").setAttribute("src","dice6.JPG");
 }
