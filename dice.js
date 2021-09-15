@@ -3,8 +3,8 @@ btn.addEventListener('click', onclick);
 function onclick(e){
 	e.preventDefault();
 
-	const player1 = document.querySelector(".player1").value.toUpperCase();
-	const player2 = document.querySelector(".player2").value.toUpperCase();
+	const player1 = document.querySelector(".player1").value;
+	const player2 = document.querySelector(".player2").value;
 	
 	// dice 1
 
