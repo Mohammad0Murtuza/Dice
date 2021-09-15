@@ -1,8 +1,4 @@
 const btn = document.querySelector(".btn");
-window.addEventListener('load', onload);
-function onload{
-	const img = document.querySelector(".img").setAttribute("src","dice6.JPG");
-}
 btn.addEventListener('click', onclick);
 function onclick(e){
 	e.preventDefault();
