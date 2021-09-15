@@ -23,9 +23,9 @@ function onclick(e){
 	const a = document.querySelector(".result");
 	
 	if (randomNumber1>randomNumber2) {
-		a.textContent = player1.toUpperCase() + " WINS!!";
+		a.textContent = player1 + " WINS!!";
 	} else if(randomNumber1<randomNumber2){
-		a.textContent = player2.toUpperCase() + " WINS!!";
+		a.textContent = player2 + " WINS!!";
 	}
 	else{
 		a.textContent = "Match DRAW";
